@@ -1,0 +1,819 @@
+* body {
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+  }
+  
+  /*PORTADA*/
+
+  
+  @media (max-width: 730px) {
+.portada{
+  width: 100%;
+}
+  .audio{
+    width: 35%;
+    height: 20px;
+    margin-left: 32%;
+    background-color:  #1a1919;
+    color: #ffffff;
+    margin-top: 5%;
+    
+}
+
+  .cuenta-regresiva {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.8em;
+    margin-top: 10%;
+}
+.cr-time > span {
+    font-size: 25px;
+    color: #1a1a1ab6;
+    font-weight: 500;
+
+    
+}
+.cr-desc {
+    color: #676767;
+    font-family: "Alegreya", serif; 
+    font-size: 17px;
+  
+}
+.cr-block {
+    background: #cbcbcb2e;
+    border-radius: 5px;
+    padding: 0.1em 0.5em;
+    background-size: 80%;
+      background-size: 220%;
+  background-image: url(./imagenes/brillo.gif);
+    
+}
+
+  
+
+
+  .h5{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;  
+
+  
+  }
+  .audio{
+    width: 35%;
+    height: 20px;
+    margin-left: 32%;
+    background-color:  #a0a0a0;
+    color: #646464bd;
+    margin-top: 5%;
+    
+}
+.fraseinicio{
+  font-size: 25px;
+  text-align: center;
+ margin-top: 5%;
+ 
+ font-family: 'Dancing Script', cursive; 
+ 
+}
+
+.plateado{
+width: 100%;
+margin-top: 10%;
+}
+.plateadodos{
+width: 100%;
+margin-top: 15%;
+}
+.plateadotres{
+width: 100%;
+margin-top: 15%;
+}
+.plateadocuatro{
+width: 100%;
+margin-top: 15%;
+}
+
+.plateadocinco{
+width: 100%;
+margin-top: 15%;
+}
+
+
+
+
+.tituloh1{
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 19px;
+  text-align: center;
+ margin-top: 5%;
+ background-color: #a48b70;
+padding-top: 2%;
+ }
+
+.flor{
+  width: 33%;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+.fondo{
+  width: 100%;
+}
+.arrow span {
+  margin-top: -50%;
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-bottom: 5px solid rgb(234, 234, 234);
+  border-right: 5px solid #8cac8e;
+  transform: rotate(45deg);
+  margin-left: 48%;
+  animation: animate28797 2s infinite;
+  }
+  
+  .arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+  }
+  
+  .arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+  }
+  
+  @keyframes animate28797 {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  
+  50% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+  }
+
+
+.linea4{
+  margin-top: -5%;
+  color: #dcdcdc;
+}
+
+
+
+
+
+.parrafo2{
+  text-align: center;
+  font-family: 'Dancing Script', cursive; 
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 14%;
+  font-weight: 580;
+   
+}
+
+
+.florblanca{
+width: 35%;
+margin-left: 70%;
+margin-top: -17%;
+}
+
+.principal{
+  width: 100%;
+  margin-top: -45%;
+ 
+}
+.calendario{
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 60%;
+}
+.fotouno{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+.gifuno {
+    background-size: 10%;
+  background-image: url(./imagenes/brillo.gif);
+  margin-top: -10%;
+}
+.parrafo3{
+  text-align: center;
+  font-family: 'Dancing Script', cursive; 
+  font-size: 24px;
+  color: #414141;
+ 
+  font-weight: 550;
+}
+.parrafo4{
+  
+ font-family: "Playfair Display", serif;
+   font-size: 29px;
+   color: #ffffff;
+   font-weight: 500;
+   margin-top: -55%;
+  text-align: center;
+   
+}
+
+}
+.fiesta{
+  text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 28px;
+   color: #ffffff;
+   font-weight: 500;
+   margin-top: 10%;
+   background-color:#d49c81 ;
+   
+}
+.ceremonia{
+  text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 28px;
+   color: #ffffff;
+   font-weight: 500;
+   margin-top: 8%;
+   background-color: #d49c81;
+   
+}
+.regalo{
+  text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 40px;
+   color: #ffffff;
+   font-weight: 500;
+   margin-top: -55%;
+
+   
+}
+.vestimenta{
+  text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 40px;
+   color: #ffffff;
+   font-weight: 500;
+   margin-top: -55%;
+
+   
+}
+.carousel-item img{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: -10;
+}
+
+.asistencia{
+  text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 40px;
+   color: #ffffff;
+   font-weight: 500;
+   margin-top: -55%;
+
+   
+}
+
+
+.dress{
+  text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 40px;
+   color: #ffffff;
+   font-weight: 500;
+   margin-top: -55%;
+
+   
+}
+
+.whatsap{
+  width: 25%;
+  margin-left: 10%;
+
+}
+.aa{
+  text-decoration: none;
+}
+
+
+
+.musica{
+ text-align: center;
+  font-family: "Allura", cursive;
+   font-size: 40px;
+   color: #242424;
+   font-weight: 500; 
+   margin-top: 10%;
+
+}
+
+
+.sobre{
+  width: 17%;
+   display: block;
+    margin: auto;
+  margin-top: 5%;
+}
+.viaje {
+  width: 18%;
+  margin-left: 41%;
+  margin-top: 5%;
+}
+
+.iglesia{
+  width: 18%;
+  margin-left: 42%;
+  margin-top: 1%;
+}
+.anillo{
+  width: 18%;
+     display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.bola{
+  width: 15%;
+  margin-left: 39%;
+} 
+.teesperamos{
+  width: 100%;
+  margin-top: 10%;
+}
+.teesperodos{
+   width: 45%;
+  margin-top: 40%;
+  margin-left: 29%;
+}
+.teespero{
+  width: 38%;
+  margin-top: 10%;
+  margin-left: 33%;
+}
+.sport{
+  width: 36%;
+  margin-left: 35%;
+ }
+
+.cajados{
+  background-color: #a48b70;
+  padding: 5 5 ;
+  margin-top: 8%;
+}
+
+
+
+
+
+.parrafoD{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 17px;
+   color: #272727;
+   font-weight: 500;
+  
+   
+}
+
+
+.primary1 {
+  min-width: 130px;
+  height: 40px;
+  font-size: 20px;
+  color: #fff;
+  padding: 7px 10px ;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color:#161616;
+  margin-top: 5%;
+  text-decoration: none;
+  font-family: 'Julius Sans One', sans-serif;
+  background-size: 220%;
+  background-image: url(./imagenes/brillo.gif);
+}
+.primary2 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  min-width: 130px;
+  height: 40px;
+  color: #ffffff;
+  padding: 7px 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color:#d49c81;
+  margin-top: 5%;
+    background-image: url(./imagenes/brillo.gif);
+  font-family: 'Julius Sans One', sans-serif;
+  background-size: 45%;
+}
+.primary3 {
+  text-decoration: none;
+  text-align: center;
+  min-width: 130px;
+    font-size: 20px;
+  height: 40px;
+  color: #ffffff;
+  padding: 7px 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color:#d49c81;
+  margin-top: 5%;
+  background-image: url(./imagenes/brillo.gif);
+  font-family: 'Julius Sans One', sans-serif;
+  background-size: 45%;
+}
+
+.primary4 {
+  text-decoration: none;
+  text-align: center;
+  min-width: 130px;
+  height: 40px;
+    font-size: 20px;
+  color: #ffffff;
+  padding: 7px 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color:#797857;
+  margin-top: 5%;
+   background-image: url(./imagenes/brillo.gif);
+  font-family: 'Julius Sans One', sans-serif;
+  background-size: 45%;
+}
+
+.btn-playlist{
+  min-width: 120px;
+  height: 40px;
+  color: #fff;
+  padding: 8px 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: #9a9a82;
+  margin-top: 5%;
+  text-decoration: none;
+  background-image: url(./imagenes/brillo.gif);
+  font-family: 'Julius Sans One', sans-serif;
+  background-size: 45%;
+  font-size: 15px;
+}
+
+.boton4{
+  text-align: center;
+}
+.boton3{
+  text-align: center;
+}
+.boton2{
+  text-align: center;
+}
+.boton1{
+  text-align: center;
+}
+.parrafo5{
+   font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #414141;
+  margin-top: -4%;
+  text-align: center;
+ 
+}
+.parrafocere{
+   font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #414141;
+  margin-top: 6%;
+  text-align: center;
+ 
+}
+.parrafoasistencia{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #414141;
+  margin-top: 2%;
+  text-align: center;
+}
+.parraforegalo{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #414141;
+  margin-top: -2%;
+  text-align: center;
+}
+.parrafovestimenta{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #414141;
+  margin-top: 5%;
+  text-align: center;
+}
+.parrafo6{
+  text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 20px;
+   color: #ffffff;
+   font-weight: 500;
+   margin-top: 5%;
+   
+}
+.parrafo7{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.parrafo8{
+    font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #414141;
+  margin-top: 5%;
+  text-align: center;
+}
+.parrafo9{
+  text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 23px;
+  color:  #242424;
+   font-weight: 500;
+   margin-top: 10%;
+}
+
+
+
+
+
+.percha{
+  width: 15%;
+  margin-left: 43%;
+  margin-top: 6%;
+}
+
+.cbu{
+  width: 110%;
+  margin-left: -3%;
+  
+}
+.fraseregalo{
+ width: 46%;
+  margin-left: 28%;
+  margin-top: -17%;
+}
+
+.aita{
+  width: 35%;
+  margin-left: 10%;
+  margin-top: -2%;
+}
+
+.andres{
+  width: 25%;
+  margin-left: -50%;
+}
+.chat{
+  width:20%;
+    margin-left: 40%;
+    margin-top: -5%;
+  }
+
+.linea-1{
+  width: 60%;
+  color: #414141;
+  margin-left: 20%;
+}
+  .chat2{
+    width:20%;
+      margin-left: 40%;
+      margin-top: -5%;
+    }
+  .a{
+    text-decoration: none;
+  }
+ .Play{
+  
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10%;
+    color: #5b675c;
+    font-weight: 700;
+   
+   }
+    h5{
+    font-size: 15px;
+    text-align: center;
+    margin-top: -5%;
+    
+    
+    }
+  
+
+.final{
+ text-align: center;
+  font-family: "Allura", cursive;
+   font-size: 30px;
+   color: #242424;
+   font-weight: 500; 
+   margin-top: 30%;
+}
+/* Contenedor principal */
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0d0b18; /* Fondo oscuro elegante */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* Duración total de carga antes de desaparecer */
+    animation: fadeOut 0.5s ease 2.5s forwards;
+  }
+
+  /* Bola de espejos con CSS puro */
+  .disco-ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: 
+      radial-gradient(circle at 30% 30%, rgba(255,255,255,0.8), transparent 40%),
+      repeating-linear-gradient(45deg, #ccc 0px, #ccc 8px, #333 8px, #333 10px),
+      repeating-linear-gradient(-45deg, #fff 0px, #fff 8px, #666 8px, #666 10px);
+    background-blend-mode: overlay, hard-light, normal;
+    background-size: 200% 100%;
+    box-shadow: 
+      0 0 20px rgba(255, 255, 255, 0.6),
+      0 0 40px rgba(236, 72, 153, 0.4),
+      0 0 60px rgba(139, 92, 246, 0.4);
+    animation: rotateBall 1.2s linear infinite;
+  }
+
+  .loading-text {
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'sans-serif';
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    animation: pulse 1s ease-in-out infinite alternate;
+  }
+
+  /* Animaciones */
+  @keyframes rotateBall {
+    0% { background-position: 0% 0; transform: rotate(0deg); }
+    100% { background-position: 200% 0; transform: rotate(360deg); }
+  }
+
+  @keyframes pulse {
+    from { opacity: 0.5; }
+    to { opacity: 1; }
+  }
+
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+.faltan{
+  text-align: center;
+ font-family: "Playfair Display", serif;
+   font-size: 25px;
+   color: #242424;
+   font-weight: 500; 
+   margin-top: 8%;
+}
+
+.cajaaudio{
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.tecla {
+margin-top: -49%;
+ margin-left: 50%;
+}
+
+
+.box__copyright {
+  max-width: 1200px;
+  padding: 18px 7px;
+  text-align: center;
+  
+  background-color: #ffffff;
+  font-size: 100%;
+}
+
+
+.box__copyright p {
+  margin-top: -10px;
+  color: #c3b1b1;
+  font-size: 12px;
+  text-align: center;
+}
+
+.box__copyright a {
+  text-decoration: none;
+  color: #c5bfa2;
+}
+
+
+
+
+ /* Contenedor redondo */
+  .music-player {
+    width: 50px;
+  height: 50px;
+  background: #161616b6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(254, 254, 254, 0.3);
+  animation: float 2s ease-in-out infinite; /* movimiento arriba-abajo */
+  /* Fijar arriba */
+  position: fixed;
+  top: 20px;   /* distancia desde arriba */
+  right: 20px; /* lo mantiene a la derecha */
+  z-index: 9999; /* asegura que quede por encima de todo */
+  
+  }
+
+
+  /* Botón play */
+  .play-btn {
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+   /* Animación de flotación */
+  @keyframes float {
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
